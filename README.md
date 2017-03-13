@@ -1,5 +1,5 @@
-# Homebrew Formulae for PRL [![Build Status](https://travis-ci.org/personalrobotics/homebrew-tap.svg?branch=master)](https://travis-ci.org/personalrobotics/homebrew-tap)
-Homebrew scripts for software of Personal Robotics Laboratory
+# homebrew-tap [![Build Status](https://travis-ci.org/personalrobotics/homebrew-tap.svg?branch=master)](https://travis-ci.org/personalrobotics/homebrew-tap)
+Homebrew tap for [Personal Robotics Laboratory][prl] [software][prl-github]
 
 Tapping
 -------
@@ -14,3 +14,6 @@ If you need to drop the tap due to compatability issues, or are very particular 
     brew untap personalrobotics/tap
 
 But note that you will not be able to upgrade any currently installed software from this tap.
+
+[prl]: https://personalrobotics.ri.cmu.edu/
+[prl-github]: https://github.com/personalrobotics/
