@@ -1,6 +1,3 @@
-# Documentation: http://docs.brew.sh/Formula-Cookbook.html
-#                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
-
 class Aikido0 < Formula
   desc "Artificial Intelligence for Kinematics, Dynamics, and Optimization"
   homepage "https://github.com/personalrobotics/aikido/"
