@@ -1,4 +1,4 @@
-# homebrew-tap
+# Homebrew Formulae for PRL [![Build Status](https://travis-ci.org/personalrobotics/homebrew-tap.svg?branch=master)](https://travis-ci.org/personalrobotics/homebrew-tap)
 Homebrew scripts for software of Personal Robotics Laboratory
 
 Tapping
