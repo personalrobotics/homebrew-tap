@@ -6,7 +6,7 @@ class Aikido0 < Formula
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
-  
+
   depends_on "boost"
   depends_on "dartsim/dart/dartsim6"
 
