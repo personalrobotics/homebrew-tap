@@ -10,7 +10,7 @@ class Aikido0 < Formula
   depends_on "boost"
   depends_on "dartsim/dart/dartsim6"
 
-  depends_on "ompl" => [:recommended, "with-eigen", "with-ode"]
+  depends_on "ompl" => [:recommended, "with-eigen"]
   depends_on "tinyxml2" => :recommended
 
   def install
