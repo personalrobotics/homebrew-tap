@@ -7,13 +7,11 @@ class Chimera < Formula
   head "https://github.com/personalrobotics/chimera", :branch => "master"
 
   depends_on "cmake" => :build
+  depends_on "boost-python" => :build # for building tests
 
   depends_on "boost"
   depends_on "llvm"
   depends_on "yaml-cpp" => "with-static-lib"
-  
-  # for test
-  depends_on "boost-python"
 
   def install
     system "cmake", ".", *std_cmake_args
