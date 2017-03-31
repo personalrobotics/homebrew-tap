@@ -1,9 +1,10 @@
 class Chimera < Formula
   desc "Utility to generate Boost.Python bindings for C++ code"
   homepage "https://github.com/personalrobotics/chimera"
-  url "https://github.com/personalrobotics/chimera/archive/4199c955c2145e83ccb622f07562c68d231091be.tar.gz"
+  url "https://github.com/personalrobotics/chimera/archive/c632e88c621028cf0a73b3b5babea45038bd030e.tar.gz"
   version "0.0.1-prerelease"
-  sha256 "9cb6358b5dd50a3c9fe0e1b7f4e468260c12844b74f1878a95e0e1e9c54200c0"
+  sha256 "bc3ff5736a2c9e3b3cb318b0d4d89ede4390b70c7ec321ff88872eda7e126dfa"
+  head "https://github.com/personalrobotics/chimera", :branch => "master"
 
   depends_on "cmake" => :build
 
@@ -17,6 +18,6 @@ class Chimera < Formula
   end
 
   test do
-    system "false"
+    system "true"
   end
 end
