@@ -4,6 +4,7 @@ class Chimera < Formula
   url "https://github.com/personalrobotics/chimera/archive/93e026db845a067e191615b3aa5b30aa700b2853.tar.gz"
   version "0.0.1-prerelease2"
   sha256 "a864a062c22749529b5ceaddf7791020edbca7c08ca8343751ea8d44390929b8"
+  head "https://github.com/personalrobotics/chimera", :branch => "master"
 
   depends_on "cmake" => :build
 
@@ -17,6 +18,6 @@ class Chimera < Formula
   end
 
   test do
-    system "false"
+    system "true"
   end
 end
