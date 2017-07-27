@@ -11,7 +11,7 @@ class Chimera < Formula
 
   depends_on "boost"
   depends_on "llvm"
-  depends_on "yaml-cpp" => "with-static-lib"
+  depends_on "yaml-cpp"
 
   def install
     system "cmake", ".", *std_cmake_args
