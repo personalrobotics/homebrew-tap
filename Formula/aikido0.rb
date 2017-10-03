@@ -16,7 +16,7 @@ class Aikido0 < Formula
   option "without-control"
   option "without-io"
   option "without-rviz"
-  
+
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
   depends_on "doxygen" => :build
