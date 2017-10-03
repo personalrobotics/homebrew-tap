@@ -1,4 +1,4 @@
-class Aikido0 < Formula
+class Aikido < Formula
   desc "Artificial Intelligence for Kinematics, Dynamics, and Optimization"
   homepage "https://github.com/personalrobotics/aikido/"
   url "https://github.com/personalrobotics/aikido/archive/v0.1.0.tar.gz"
