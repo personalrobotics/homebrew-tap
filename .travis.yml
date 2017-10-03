@@ -2,6 +2,10 @@ language: ruby
 
 matrix:
   include:
+    - env: OSX=10.13
+      os: osx
+      osx_image: xcode9
+      rvm: system
     - env: OSX=10.12
       os: osx
       osx_image: xcode8.1
@@ -9,10 +13,6 @@ matrix:
     - env: OSX=10.11
       os: osx
       osx_image: xcode7.3
-      rvm: system
-    - env: OSX=10.10
-      os: osx
-      osx_image: xcode6.4
       rvm: system
 
 before_install:
