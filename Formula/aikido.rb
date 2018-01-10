@@ -1,8 +1,8 @@
 class Aikido < Formula
   desc "Artificial Intelligence for Kinematics, Dynamics, and Optimization"
   homepage "https://github.com/personalrobotics/aikido/"
-  url "https://github.com/personalrobotics/aikido/archive/v0.1.0.tar.gz"
-  sha256 "8260072991f184cdfa029d7875d60dc78b252737f7f7087fc0bfb63fad6f6815"
+  url "https://github.com/personalrobotics/aikido/archive/v0.2.0.tar.gz"
+  sha256 "bcd6a1386317c240df306d42b24661dbbcdaebc3d4b87e68c687c6336d0e0d19"
   head "https://github.com/personalrobotics/aikido.git"
 
   option "without-common"
