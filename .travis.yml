@@ -2,11 +2,11 @@ language: ruby
 
 matrix:
   include:
-    - env: OSX=10.12
+    - env: OSX=10.12 XCODE=9.2
       os: osx
       osx_image: xcode9.2 # latest
       rvm: system
-    - env: OSX=10.12
+    - env: OSX=10.12 XCODE=8.3
       os: osx
       osx_image: xcode8.3 # default
       rvm: system
