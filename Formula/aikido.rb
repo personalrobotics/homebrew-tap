@@ -9,10 +9,10 @@ class Aikido < Formula
   depends_on "pkg-config" => :build
   depends_on "boost"
   depends_on "dartsim"
+  depends_on "libmicrohttpd"
   depends_on "ompl"
   depends_on "tinyxml2"
   depends_on "yaml-cpp"
-  depends_on "libmicrohttpd"
 
   needs :cxx11
 
