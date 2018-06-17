@@ -12,7 +12,7 @@ class Chimera < Formula
   depends_on "yaml-cpp"
 
   def install
-    system "cmake", ".", *std_cmake_args
+    system "cmake", ".", "-DBUILD_TESTING=OFF", *std_cmake_args
     system "make", "install"
   end
 
