@@ -21,6 +21,6 @@ class BoostEigenNumpy < Formula
   end
 
   test do
-    system "true"
+    system python, "-c", "import boost_eigen_numpy"
   end
 end
