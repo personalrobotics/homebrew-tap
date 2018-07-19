@@ -20,6 +20,6 @@ class Dartpy < Formula
   end
 
   test do
-    system "true"
+    system python, "-c", "import dartpy"
   end
 end
