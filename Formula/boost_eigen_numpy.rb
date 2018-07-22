@@ -2,7 +2,7 @@ class BoostEigenNumpy < Formula
   desc "Boost.Python bindings that convert between NumPy and Eigen"
   homepage "https://github.com/personalrobotics/Boost.NumPy_Eigen/"
   url "https://github.com/personalrobotics/Boost.NumPy_Eigen/archive/v0.0.5.tar.gz"
-  sha256 "ccfd02fd91e80ae918fb3d6ae98d60586894138ed1f9c3e3189cc1783639d51b"
+  sha256 "121420dfdf1ba884903ac3733c7c02639955c901c2074e6a5c677c67944d5475"
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
