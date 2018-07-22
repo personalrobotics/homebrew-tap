@@ -4,12 +4,11 @@ class BoostEigenNumpy < Formula
   url "https://github.com/personalrobotics/Boost.NumPy_Eigen/archive/v0.0.5.tar.gz"
   sha256 "ccfd02fd91e80ae918fb3d6ae98d60586894138ed1f9c3e3189cc1783639d51b"
 
+  depends_on "boost" => :build
+  depends_on "boost-python3" => :build
   depends_on "cmake" => :build
-  depends_on "doxygen" => :build
+  depends_on "eigen" => :build
   depends_on "pkg-config" => :build
-  depends_on "boost"
-  depends_on "boost-python3"
-  depends_on "eigen"
   depends_on "numpy"
 
   needs :cxx11
