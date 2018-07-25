@@ -8,7 +8,7 @@ class Dartpy < Formula
   depends_on "pkg-config" => :build
   depends_on "boost"
   depends_on "boost-python3"
-  depends_on "boost_eigen_numpy"
+  depends_on "boost_numpy_eigen"
   depends_on "dartsim"
 
   needs :cxx11
