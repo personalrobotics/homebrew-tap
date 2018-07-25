@@ -2,9 +2,9 @@ language: ruby
 
 matrix:
   include:
-    - env: OSX=10.12 XCODE=9.2
+    - env: OSX=10.13 XCODE=9.4
       os: osx
-      osx_image: xcode9.2 # latest
+      osx_image: xcode9.4 # latest
       rvm: system
     - env: OSX=10.12 XCODE=8.3
       os: osx
@@ -18,13 +18,14 @@ before_install:
     fi
   - sudo chown -R $USER "$(brew --repo)"
   - git -C "$(brew --repo)" reset --hard origin/master
+  - git -C "$(brew --repo)" clean -qxdff
+  - export HOMEBREW_DEVELOPER="1"
   - brew update || brew update
   - rm -rf "$(brew --repo $TRAVIS_REPO_SLUG)"
   - mkdir -p "$(brew --repo $TRAVIS_REPO_SLUG)"
   - rsync -az "$TRAVIS_BUILD_DIR/" "$(brew --repo $TRAVIS_REPO_SLUG)"
   - export TRAVIS_BUILD_DIR="$(brew --repo $TRAVIS_REPO_SLUG)"
   - cd "$(brew --repo)"
-  - export HOMEBREW_DEVELOPER="1"
   - ulimit -n 1024
 
 script:
