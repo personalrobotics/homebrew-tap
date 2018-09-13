@@ -5,7 +5,6 @@ class Chimera < Formula
   sha256 "71e2638302b0bf20a67c7f8cef150fae8cc20415a60ab855518ebeb1ef30cc63"
 
   depends_on "cmake" => :build
-  depends_on "boost-python3" => :build # for building tests
 
   depends_on "boost"
   depends_on "llvm@5"
