@@ -1,11 +1,10 @@
 class Chimera < Formula
   desc "Utility to generate Boost.Python bindings for C++ code"
   homepage "https://github.com/personalrobotics/chimera"
-  url "https://github.com/personalrobotics/chimera/archive/v0.0.4.tar.gz"
-  sha256 "27c6fd2d7d2d0165ffc45bde387bd64fe28ea7b6d900023d72936645b5635ecd"
+  url "https://github.com/personalrobotics/chimera/archive/v0.0.5.tar.gz"
+  sha256 "71e2638302b0bf20a67c7f8cef150fae8cc20415a60ab855518ebeb1ef30cc63"
 
   depends_on "cmake" => :build
-  depends_on "boost-python3" => :build # for building tests
 
   depends_on "boost"
   depends_on "llvm@5"
