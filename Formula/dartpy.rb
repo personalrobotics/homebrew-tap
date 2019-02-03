@@ -11,8 +11,6 @@ class Dartpy < Formula
   depends_on "boost_numpy_eigen"
   depends_on "dartsim"
 
-  needs :cxx11
-
   def install
     ENV.cxx11
     system "cmake", ".", *std_cmake_args
