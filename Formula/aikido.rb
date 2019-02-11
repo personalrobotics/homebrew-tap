@@ -14,8 +14,6 @@ class Aikido < Formula
   depends_on "tinyxml2"
   depends_on "yaml-cpp"
 
-  needs :cxx11
-
   def install
     ENV.cxx11
     system "cmake", ".", *std_cmake_args
